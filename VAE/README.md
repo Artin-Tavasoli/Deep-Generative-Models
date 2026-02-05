@@ -28,17 +28,12 @@ The project utilizes the **dSprites** dataset, a standard benchmark for disentan
 
 * Color, Shape, Scale, Orientation, Position X, Position Y.
 
-### 1. Model Reconstructions
+### Training Dynamics
 
-*What to add:* A comparison image showing the original input vs. the reconstructed output.
+![loss](assets/beta1_loss_plot.png)
 
-* **Recommended Image:**  (From Report Fig 5.2 or Notebook)
-* **Caption:** *Comparison of ground truth (top) and VAE reconstructions (bottom) with .*
+### Model Reconstructions
 
-### 3. Training Dynamics
+![loss](assets/beta1_recon_samples.png)
 
-*What to add:* The loss curves showing the optimization process.
-
-* **Recommended Image:**  (From Report Fig 4.2 or 6.2)
-* **Caption:** *Training and Validation loss curves, separating Reconstruction Loss and KL Divergence.*
 
