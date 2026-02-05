@@ -2,6 +2,8 @@
 
 This project implements **Variational Autoencoders (VAE)** and **$\beta$-VAEs** to explore the concept of **disentanglement** in deep generative models. Using the **dSprites** dataset, the project analyzes the trade-off between reconstruction quality and the independence of latent factors.
 
+![vae](assets/VAE.png)
+
 ## 📂 Project Structure
 
 * `VAE_Implementation.ipynb`: The core Jupyter Notebook containing the training pipeline, model architecture, and evaluation scripts.
@@ -34,6 +36,6 @@ The project utilizes the **dSprites** dataset, a standard benchmark for disentan
 
 ### Model Reconstructions
 
-![loss](assets/beta1_recon_samples.png)
+![recon](assets/beta1_recon_samples.png)
 
 
