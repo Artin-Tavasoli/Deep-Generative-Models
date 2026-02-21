@@ -57,7 +57,7 @@ The model successfully learned the custom subject and gained the ability to gene
 
 <div align="center">
   <img src="assets/dreambooth_car.png" alt="DreamBooth Generated Car" width="400"/>
-  <p><i>Figure 2: The custom &lt;sks&gt; car generated in a novel environment ("&lt;sks&gt; car on the moon").</i></p>
+  <p><i>Figure 4: The custom &lt;sks&gt; car generated in a novel environment ("&lt;sks&gt; car on the moon").</i></p>
 </div>
 
 ---
@@ -76,10 +76,10 @@ The generated data perfectly captures the random-walk nature and volatility clus
 
 <div align="center">
   <img src="assets/flow_matching_series.png" alt="Real vs Generated Time Series" width="700"/>
-  <p><i>Figure 3: Comparison of real SPY ETF trajectories vs. synthetic sequences generated via Flow Matching.</i></p>
+  <p><i>Figure 5: Comparison of real SPY ETF trajectories vs. synthetic sequences generated via Flow Matching.</i></p>
 </div>
 
 * **Distributional Geometry:** Evaluated using the **Sliced Wasserstein Distance (SWD)**, achieving an exceptionally low score of **`0.001159`**, proving the model mathematically aligns with the real market's geometric distribution.
-* **Temporal Dependencies (Market Memory):** * **Real Mean ACF (Lag-1):** `0.0312` (weak momentum).
+* **Temporal Dependencies (Market Memory):**  **Real Mean ACF (Lag-1):** `0.0312` (weak momentum).
     * **Generated Mean ACF (Lag-1):** `-0.0615` (slight mean reversion).
     * **Autocorrelation MSE:** **`0.004474`**. This microscopic error confirms the overall magnitude of temporal correlations was correctly simulated without severe overfitting.
